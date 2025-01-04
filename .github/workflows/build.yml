@@ -33,8 +33,7 @@ jobs:
             - name: Build with Gradle
               run: ./gradlew clean build
 
-            - name: Upload JAR artifact
-              uses: actions/upload-artifact@v3
-              with:
-                  name: manu-jar
-                  path: build/libs/manu.jar
+            - name: Publish to GitHub Packages
+              run: ./gradlew publish
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
