@@ -39,8 +39,8 @@ public class Application {
       log.info("");
 
       // fetch an individual customer by ID
-      Customer customer = repository.findById(1L);
-      log.info("Customer found with findById(1L):");
+      Customer customer = repository.findById(1);
+      log.info("Customer found with findById(1):");
       log.info("--------------------------------");
       log.info(customer.toString());
       log.info("");
