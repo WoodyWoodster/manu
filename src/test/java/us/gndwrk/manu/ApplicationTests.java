@@ -1,4 +1,3 @@
-package us.gndwrk.manu;
 // package us.gndwrk.manu;
 
 // import org.junit.jupiter.api.Test;

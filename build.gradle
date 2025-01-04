@@ -39,5 +39,5 @@ tasks.named('test') {
 }
 
 bootJar {
-  archiveFileName = 'gndwrk.jar'
+  archiveFileName = 'manu.jar'
 }
