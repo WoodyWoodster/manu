@@ -1,4 +1,4 @@
-package us.gndwrk.erp.entities;
+package us.gndwrk.manu.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package us.gndwrk.erp;
+package us.gndwrk.manu;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,8 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import us.gndwrk.erp.entities.Customer;
-import us.gndwrk.erp.repositories.CustomerRepository;
+import us.gndwrk.manu.entities.Customer;
+import us.gndwrk.manu.repositories.CustomerRepository;
 
 @SpringBootApplication
 public class Application {

@@ -1,10 +1,10 @@
-// package us.gndwrk.erp;
+// package us.gndwrk.manu;
 
 // import org.junit.jupiter.api.Test;
 // import org.springframework.boot.test.context.SpringBootTest;
 
 // @SpringBootTest
-// class ErpApplicationTests {
+// class ApplicationTests {
 
 // 	@Test
 // 	void contextLoads() {
